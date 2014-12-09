@@ -1,3 +1,10 @@
+*.sw[opn]
+*~
+
+/profile*.json
+/*.ipynb
+/.ipynb_checkpoints/
+
 *.class
 *.log
 
@@ -15,3 +22,29 @@ project/plugins/project/
 # Scala-IDE specific
 .scala_dependencies
 .worksheet
+
+# Eclipse specific
+.pmd
+.classpath
+.project
+.settings/
+
+# IntelliJ-IDEA specific
+*.iml
+.idea/
+.idea_modules/
+
+# Compiler
+output
+*/target/
+
+#Misc
+temp
+**/temp
+foo
+
+#aws key
+**/rootkey.csv
+
+#spark deployment and autoscaling scripts
+**/inventories/
